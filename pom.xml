@@ -21,14 +21,12 @@
     </repositories>
 
     <dependencies>
-        <!-- ✅ MuServer (working version) -->
         <dependency>
             <groupId>io.muserver</groupId>
             <artifactId>mu-server</artifactId>
             <version>1.1.0</version>
         </dependency>
 
-        <!-- ✅ Gson for JSON parsing -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -38,7 +36,6 @@
 
     <build>
         <plugins>
-            <!-- ✅ To run Main.java -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
